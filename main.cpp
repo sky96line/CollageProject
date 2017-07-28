@@ -25,6 +25,6 @@ int main()
     
     cout<<"Enter Number : ";
     cin>>val;
-    cout<<mySqrt(val,0.0001);
+    cout<<mySqrt(val,epsilon);
     return 0;
 }
