@@ -21,6 +21,10 @@ double mySqrt(double x, double epsilon)
 
 int main()
 {
-    cout<<mySqrt(26,0.0001);
+    double val, epsilon=0.00001; //epsilon is how our value is differ from original ans.!
+    
+    cout<<"Enter Number : ";
+    cin>>val;
+    cout<<mySqrt(val,0.0001);
     return 0;
 }
